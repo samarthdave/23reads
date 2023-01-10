@@ -1,0 +1,22 @@
+    <!------------------------->
+    <!--- CURRENTLY READING --->
+    <!------------------------->
+
+    <br />
+    <div class="container">
+        <h4>🚧 in progress 🛠️</h3>
+    </div>
+
+    <div class="container">
+        <div class="row books-row">
+            {{ $reading := site.Data.reading }}
+            {{ range $reading }}
+                <div class="col-4">
+                    <figure class="figure text-center">
+                        <img src="{{ .src }}" class="figure-img img-fluid rounded" alt="{{ .alt }}" />
+                        <figcaption class="figure-caption">{{ .title }}</figcaption>
+                    </figure>
+                </div>
+            {{ end }}
+        </div>
+    </div>

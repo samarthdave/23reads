@@ -1,0 +1,20 @@
+    <!------------------------->
+    <!--------- READ ---------->
+    <!------------------------->
+    <div class="container">
+        <h4>✅ done</h3>
+    </div>
+
+    <div class="container">
+        <div class="row books-row">
+            {{ $read := site.Data.read }}
+            {{ range $read }}
+                <div class="col-4">
+                    <figure class="figure text-center">
+                        <img src="{{ .src }}" class="figure-img img-fluid rounded" alt="{{ .alt }}" />
+                        <figcaption class="figure-caption">{{ .title }}</figcaption>
+                    </figure>
+                </div>
+            {{ end }}
+        </div>
+    </div>
