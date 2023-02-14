@@ -1,5 +1,11 @@
 [
     {
+        "src": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1413706054i/18007564.jpg",
+        "alt": "The Martian",
+        "title": "The Martian",
+        "goodreads": "https://www.goodreads.com/book/show/18007564"
+    },
+    {
         "src": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661016554l/76778._SY475_.jpg",
         "alt": "The Martian Chronicles",
         "title": "The Martian Chronicles",

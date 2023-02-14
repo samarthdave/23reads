@@ -47,6 +47,11 @@ code {
     width: 100%;
 }
 
+.figure:hover img {
+    box-shadow: #5d5d5d 0 0 20px;
+    transition: .1s ease;
+}
+
 .books-row .figure-caption {
     color: var(--light-grey) !important;
 }
