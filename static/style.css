@@ -47,7 +47,8 @@ code {
     width: 100%;
 }
 
-.figure:hover img {
+.figure img:hover {
+    cursor: pointer;
     box-shadow: #5d5d5d 0 0 20px;
     transition: .1s ease;
 }

@@ -11,7 +11,9 @@
             {{ range $read }}
                 <div class="col-4">
                     <figure class="figure text-center">
-                        <img src="{{ .src }}" class="figure-img img-fluid rounded" alt="{{ .alt }}" />
+                        <a href="{{ .goodreads }}" target="_blank">
+                            <img src="{{ .src }}" class="figure-img img-fluid rounded" alt="{{ .alt }}" />
+                        </a>
                         <figcaption class="figure-caption">{{ .title }}</figcaption>
                     </figure>
                 </div>
