@@ -73,8 +73,6 @@ code {
 }
 
 span.emoji {
-    position: relative;
-    bottom: 0;
     font-size: 80px;
 }
 
@@ -85,7 +83,7 @@ span.emoji {
 .bkg-parent span {
     position: absolute;
     bottom: -50px;
-    left: 100px;
+    left: 10%;
 }
 
 .btn-cream {
