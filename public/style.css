@@ -1,0 +1,92 @@
+:root {
+    --white: #ccc;
+    --light-grey: #c9c7c7;
+    --bkg: #171717;
+    --light-bkg: #333;
+}
+
+body {
+    background: var(--bkg);
+    color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--white);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.jumbotron h1 {
+    font-weight: 650;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+blockquote.quote {
+    border-left: 3px solid var(--white);
+    margin: 1.5em 20px;
+    padding: 0.2em 10px;
+}
+
+code {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.code {
+    background-color: var(--light-bkg);
+    padding: 2rem;
+    border-radius: 0.4rem;
+    overflow-x: auto;
+    display: flex;
+}
+
+.figure {
+    width: 100%;
+}
+
+.figure img:hover {
+    cursor: pointer;
+    box-shadow: #5d5d5d 0 0 20px;
+    transition: .1s ease;
+}
+
+.books-row .figure-caption {
+    color: var(--light-grey) !important;
+}
+
+.books-row span {
+    font-size: 0.9rem;
+}
+
+.books-row img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.books-row .col-4 {
+    padding: 1.0rem;
+    text-align: center;
+}
+
+span.emoji {
+    font-size: 80px;
+}
+
+.bkg-parent {
+    position: relative;
+}
+
+.bkg-parent span {
+    position: absolute;
+    bottom: -50px;
+    left: 10%;
+}
+
+.btn-cream {
+    background-color: bisque !important;
+    color: #000 !important;
+}
