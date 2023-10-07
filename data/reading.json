@@ -1,8 +1,14 @@
 [
     {
-        "src": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494979127i/33507.jpg",
-        "alt": "Twenty Thousand Leagues Under the Sea",
-        "title": "Twenty Thousand Leagues Under the Sea",
-        "goodreads": "https://www.goodreads.com/book/show/33507.Twenty_Thousand_Leagues_Under_the_Sea"
+        "src": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1419363185i/4982.jpg",
+        "alt": "The Sirens of Titan",
+        "title": "The Sirens of Titan",
+        "goodreads": "https://www.goodreads.com/book/show/4982.The_Sirens_of_Titan"
+    },
+    {
+        "src": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1636978687i/58784475.jpg",
+        "alt": "Tomorrow, and Tomorrow, and Tomorrow",
+        "title": "Tomorrow, and Tomorrow, and Tomorrow",
+        "goodreads": "https://www.goodreads.com/book/show/58784475-tomorrow-and-tomorrow-and-tomorrow"
     }
 ]
